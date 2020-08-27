@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="JP">
+<head>
+	<title>Admin Menu</title>
+	<link rel="stylesheet" href="AdminMenu.css">
+  	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div id="menuMainBlock">
+  <!--        upper half navbar            -->
+		<nav class="navbar navbar-expand-sm menuEdit">
+  		<!-- Brand/logo -->
+  		<a class="navbar-brand" href="#">
+    		<p id ="navbarBrand">NEO学校</p>
+  		</a>
+
+  		<!-- Links -->
+  		<ul id="editNavbarList" class="navbar-nav">
+
+        <!-- Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Admin
+          </a>
+          <div class="dropdown-menu editDropdownMenu">
+            <a class="dropdown-item" href="#">Change Password</a>
+            <a class="dropdown-item" href="#">Logout</a>
+          </div>
+        </li>
+      </ul>
+
+		</nav>
+
+    <!--        below half navbar            -->
+
+    <nav class="navbar navbar-expand-sm menuEdit justify-content-center">
+
+      <!-- Links -->
+      <ul id="navMenu" class="navbar-nav mb-20">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Account</a>
+        </li>
+
+        <!-- Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            User Account
+          </a>
+          <ul class="dropdown-menu" id="user_account_dropdown">
+            <li><a class="dropdown-item" href="#">Teacher</a></li>
+            <li><a class="dropdown-item" href="#">Student</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Add New Teacher</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Programs
+          </a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Students</a>
+              <ul class="dropdown-menu editSubmenu">
+                <li><a class="dropdown-item" href="#">Attendance</a></li>
+              </ul>
+            </li>
+            <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Teachers</a>
+              <ul class="dropdown-menu editSubmenu">
+                <li><a class="dropdown-item" href="#">Lessons Taught</a></li>
+              </ul>
+            </li>
+            <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Lessons</a>
+              <ul class="dropdown-menu editSubmenu">
+                <li><a class="dropdown-item" href="#">Enrolled Students</a></li>
+                <li><a class="dropdown-item" href="#">Attendance Report</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Programs</a>
+          <ul class="drpdown-menu" id="prog_drop">
+            <li><a class="dropdown-item" href="#">Students</a></li>
+            <li><a href="#" class="dropdown-item">Teachers</a></li>
+            <li><a href="#" class="dropdown-item">Lessons</a></li>
+          </ul>
+        </li> -->
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">News</a>
+        </li>
+
+      </ul>
+
+    </nav>
+
+	</div>
+</body>
+</html>

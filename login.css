@@ -1,0 +1,68 @@
+
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #fff;
+}
+
+.login_box
+{
+	width: 300px;
+	height: auto;
+	margin: 150px auto;
+	border: 2px solid #ddd;
+	padding: 30px;
+	box-shadow: 5px 10px #ddd;
+	border-radius: 5px;
+}
+
+.login_box h1
+{
+	
+	font-size: 30px;
+	text-align: center;
+	font-family: verdana;
+}
+
+
+.textbox
+{
+	widows: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 15px 0;
+	border: 1px solid #4caf50;
+}
+
+
+.textbox input
+{
+	border: none;
+	outline: none;
+	background: none;
+	color: black;
+	font-size: 18px;
+	width: 80%;
+	margin: 5px 15px;
+}
+
+.btn
+{
+	width: 100%;
+	background: #009900;
+	border-radius: 7px;
+	border: 2px solid #009900;
+	color: black;
+	font-size: 18px;
+	padding: 5px;
+	margin: 15px 0;
+	cursor: pointer;
+}
+
+.btn:hover{
+	background-color: #00cc00;
+	transition: 0.5s ease-in-out;
+}

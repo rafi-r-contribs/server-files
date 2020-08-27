@@ -1,0 +1,84 @@
+
+
+#navbarBrand{
+	margin-bottom: 0px;
+	font-size: 30px;
+}
+
+#editNavbarList{
+	margin-left: 78%;
+}
+
+#navMenu{
+	/* margin-left: 17%; */
+	font-size: 24px;
+	color: #fff;
+}
+
+.menuEdit{
+	background-color: #0b306b;
+}
+
+#navMenu li{
+	padding-right: 40px;
+	padding-left: 20px;
+	margin-bottom: -7px;
+
+}
+
+#user_account_dropdown{
+  margin-left: 23px;
+}
+
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.navbar-expand-sm .navbar-nav .dropdown-menu {
+    margin: 0;
+    background-color: #62a5bf;
+}
+
+.navbar-expand-sm .navbar-nav .dropdown-menu :hover{
+    background-color: #a5dbf0;
+}
+
+.navbar-expand-sm .navbar-nav .dropdown-menu .editSubmenu {
+    background-color: #62a5bf;
+}
+
+.navbar-expand-sm .navbar-nav .dropdown-menu .editSubmenu :hover{
+    background-color: #a5dbf0;
+}
+
+nav a{
+	color: #fff;
+}
+
+ nav a:hover{
+	color: #a5dbf0;
+}
+
+
+.navbar-nav li:hover > ul.dropdown-menu {
+    display: block;
+}
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top:-6px;
+}
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+    text-decoration: underline;
+    transform: rotate(-90deg);
+}

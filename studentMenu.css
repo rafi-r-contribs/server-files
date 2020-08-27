@@ -1,0 +1,54 @@
+#navbarBlock{
+	
+}
+
+#navbarBrand{
+	margin-bottom: 0px;
+	font-size: 30px;
+}
+
+#editNavbarList{
+	margin-left: 78%;
+}
+
+#navMenu{
+	margin-left: 17%;
+	font-size: 24px;
+	color: #fff;
+}
+
+.menuEdit{
+	background-color: #0b306b;
+}
+
+#navMenu li{
+	padding-right: 40px;
+	padding-left: 20px;
+	margin-bottom: -7px;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.navbar-expand-sm .navbar-nav .dropdown-menu {
+    margin: 0;
+    background-color: #62a5bf
+}
+
+.navbar-expand-sm .navbar-nav .dropdown-menu :hover{
+    background-color: #a5dbf0
+}
+
+nav a{
+	color: #fff;
+}
+
+ nav a:hover{
+	color: #a5dbf0;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="JP">
+<head>
+	<title>Teacher Menu</title>
+	<link rel="stylesheet" href="TeacherMenu.css">
+  	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div id="menuMainBlock">
+  <!--        upper half navbar            -->
+		<nav class="navbar navbar-expand-sm menuEdit">
+  		<!-- Brand/logo -->
+  		<a class="navbar-brand" href="#">
+    		<p id ="navbarBrand">NEO学校</p>
+  		</a>
+
+  		<!-- Links -->
+  		<ul id="editNavbarList" class="navbar-nav">
+
+    <!-- Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Teacher Name
+          </a>
+        <div class="dropdown-menu editDropdownMenu">
+          <a class="dropdown-item" href="#">Change Password</a>
+          <a class="dropdown-item" href="#">Logout</a>
+        </div>
+        </li>
+      </ul>
+
+		</nav>
+    <!--        below half navbar            -->
+    <nav class="navbar navbar-expand-sm menuEdit">
+
+      <!-- Links -->
+      <ul id="navMenu" class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Account</a>
+        </li>
+
+        <!-- Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Programs
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Students</a></li>
+            <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Lessons</a>
+              <ul class="dropdown-menu editSubmenu">
+                <li><a class="dropdown-item" href="#">Enrolled Students</a></li>
+                <li><a class="dropdown-item" href="#">Attendance</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Messages</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Calendar</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">News</a>
+        </li>
+
+      </ul>
+
+    </nav>
+
+	</div>
+</body>
+</html>
